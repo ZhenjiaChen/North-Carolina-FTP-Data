@@ -118,6 +118,8 @@ if __name__ == "__main__":
     ax.tick_params(axis='y', which='major', pad=0)
     ax.tick_params(axis='x', which='major', pad=0)
 
+    plt.legend()
+
     plt.grid(True, axis='both')
     plt.tight_layout()
     plt.savefig("fig6.png")
